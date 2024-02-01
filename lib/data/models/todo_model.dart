@@ -29,7 +29,7 @@ class TodoModel {
 TodoModel _$TaskFromJson(Map<String, dynamic> json) => TodoModel(
       id: json['id'] as int,
       userId: json['userId'] as int,
-      title: json['title'] as String,
+      title: json['todo'] as String,
       isComplete: json['completed'] as bool? ?? false,
     );
 
